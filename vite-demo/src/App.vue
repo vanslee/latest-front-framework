@@ -1,11 +1,10 @@
 <template>
   <div>
-    <Content />
+    <indexVue></indexVue>
   </div>
 </template>
 <script setup lang='ts'>
-import { ref, reactive } from 'vue'
-import Content from './插槽/content.vue';
+import indexVue from './全局函数和变量/index.vue'
 </script>
 <style scoped>
 
