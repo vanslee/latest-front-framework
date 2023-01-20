@@ -1,10 +1,10 @@
 <template>
   <div>
-    <indexVue></indexVue>
+    <RouterView></RouterView>
   </div>
 </template>
 <script setup lang='ts'>
-import indexVue from './全局函数和变量/index.vue'
+console.log('代码环境相关参数', import.meta.env);
 </script>
 <style scoped>
 
